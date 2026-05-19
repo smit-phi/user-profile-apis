@@ -1,0 +1,16 @@
+[project]
+name = "poc-2-auth-based-user-profile"
+version = "0.1.0"
+description = "POC 2: Authentication-Based User Profile API"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiosqlite>=0.22.1",
+    "fastapi[standard]>=0.136.1",
+    "passlib[bcrypt]>=1.7.4",
+    "python-dotenv>=1.2.2",
+    "python-jose[cryptography]>=3.5.0",
+    "python-multipart>=0.0.29",
+    "sqlalchemy>=2.0.49",
+    "uvicorn>=0.47.0",
+]
